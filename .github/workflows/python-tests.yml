@@ -47,7 +47,7 @@ jobs:
             --disable-warnings \
             --html=reports/report.html \
             --self-contained-html \
-            --css=reports/assets/
+            --css=reports/assets/style.css \
             -n 5
         env:
           DISPLAY: :99.0  # Needed for headless environments
