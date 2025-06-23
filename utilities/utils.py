@@ -52,7 +52,9 @@ class AutomationLoggerClass:
 
 
 # pylint: disable=C0301
-TESTDATA_FOLDER = r"C:\Users\User\OneDrive - Lebanese University\Documents\InternshipXpertbotX6\XpertBotFramework\testdata"
+TESTDATA_FOLDER = os.path.join(os.path.dirname(__file__), "..", "testdata")
+TESTDATA_FOLDER = os.path.abspath(TESTDATA_FOLDER)
+
 DEFAULT_SHEET = "Sheet"
 
 
