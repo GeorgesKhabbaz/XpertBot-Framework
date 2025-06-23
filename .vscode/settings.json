@@ -3,7 +3,7 @@
     "tests",
     "--css=reports/assets/style.css",
     "--html=reports/report.html",
-    "- n 5",
+    "-n 5",
     "--headless"
 
   ],
