@@ -5,22 +5,31 @@ Currently includes a fixture to launch and quit the Chrome browser for UI testin
 """
 import os
 import re
+import tempfile
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 
 # Define a fixture that will be executed once per class using the scope="class" argument
 @pytest.fixture(scope="class")
 def launchbrowser(request):
     """
-    This fixture sets up the Chrome browser before test classes run,
-    navigates to the login URL, and quits the browser after the tests finish.
+    Fixture to launch Chrome browser with a unique user data dir in headless mode.
+    This avoids conflicts when running in parallel.
     """
 
-    # Initialize the Chrome WebDriver (you can change to Firefox or Edge if needed)
-    driver = webdriver.Chrome()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")  # Use new headless mode (from Chrome 109+)
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    # Open the desired URL in the browser
+    # Create a temporary unique user-data-dir to avoid parallel session conflict
+    temp_user_data_dir = tempfile.mkdtemp(prefix="chrome_user_data_")
+    chrome_options.add_argument(f"--user-data-dir={temp_user_data_dir}")
+
+    # Initialize the driver with options
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://xpertbotacademy.online/nova/login")
 
     # Attach the driver to the test class so it can be accessed using self.driver inside tests
