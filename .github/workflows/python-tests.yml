@@ -38,14 +38,14 @@ jobs:
 
       # Step 5: Create reports directory
       - name: Create reports directory
-        run: mkdir -p reports/assets/style.css
+        run: mkdir -p reports/assets
 
       # Step 6: Run Pytest with 5 parallel workers
       - name: Run Pytest
         run: |
           pytest tests \
             --disable-warnings \
-            --html=reports/Xpertbot.html \
+            --html=reports/report.html \
             --self-contained-html \
             --css=reports/assets/
             -n 5
