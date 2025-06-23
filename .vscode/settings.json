@@ -1,0 +1,9 @@
+{
+  "python.testing.pytestArgs": [
+    "tests",
+    "--css=reports/assets/style.css",
+    "--html=reports/report.html"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}

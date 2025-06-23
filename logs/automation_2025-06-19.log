@@ -1,0 +1,45 @@
+2025-06-19 13:15:57,596 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-19 13:15:57,605 - xpertbot_login_function - INFO - Locating email input field
+2025-06-19 13:15:57,605 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-19 13:15:57,791 - xpertbot_login_function - INFO - Entered username.
+2025-06-19 13:15:57,912 - xpertbot_login_function - INFO - Entered password.
+2025-06-19 13:16:00,461 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-19 13:16:02,462 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-19 13:16:02,489 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-19 13:16:02,490 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-19 13:16:02,490 - setup_method - INFO - Starting logout test.
+2025-06-19 13:16:02,495 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-19 13:16:02,621 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-19 13:16:02,622 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-19 13:16:03,451 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-19 13:16:05,452 - setup_method - INFO - Logout test executed successfully.
+2025-06-19 14:59:06,226 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-19 14:59:06,237 - xpertbot_login_function - INFO - Locating email input field
+2025-06-19 14:59:06,238 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-19 14:59:06,503 - xpertbot_login_function - INFO - Entered username.
+2025-06-19 14:59:06,611 - xpertbot_login_function - INFO - Entered password.
+2025-06-19 14:59:09,552 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-19 14:59:11,553 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-19 14:59:11,578 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-19 14:59:11,578 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-19 14:59:11,578 - setup_method - INFO - Starting logout test.
+2025-06-19 14:59:11,584 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-19 14:59:11,695 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-19 14:59:11,695 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-19 14:59:12,346 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-19 14:59:14,348 - setup_method - INFO - Logout test executed successfully.
+2025-06-19 18:53:05,829 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-19 18:53:05,838 - xpertbot_login_function - INFO - Locating email input field
+2025-06-19 18:53:05,838 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-19 18:53:06,025 - xpertbot_login_function - INFO - Entered username.
+2025-06-19 18:53:06,161 - xpertbot_login_function - INFO - Entered password.
+2025-06-19 18:53:10,321 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-19 18:53:12,322 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-19 18:53:12,344 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-19 18:53:12,345 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-19 18:53:12,345 - setup_method - INFO - Starting logout test.
+2025-06-19 18:53:12,352 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-19 18:53:12,456 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-19 18:53:12,456 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-19 18:53:13,139 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-19 18:53:15,139 - setup_method - INFO - Logout test executed successfully.

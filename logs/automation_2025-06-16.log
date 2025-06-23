@@ -1,0 +1,14 @@
+2025-06-16 22:42:16,544 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:42:16,545 - setup_method - ERROR - An error occurred during the login test: FrameworkXpertBotLoginPageClass.xpertbot_login() got an unexpected keyword argument 'Username'. Did you mean 'username'?
+2025-06-16 22:42:16,563 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:42:16,564 - setup_method - ERROR - An error occurred during the login test: FrameworkXpertBotLoginPageClass.xpertbot_login() got an unexpected keyword argument 'Username'. Did you mean 'username'?
+2025-06-16 22:42:16,578 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:42:16,578 - setup_method - ERROR - An error occurred during the login test: FrameworkXpertBotLoginPageClass.xpertbot_login() got an unexpected keyword argument 'Username'. Did you mean 'username'?
+2025-06-16 22:42:16,591 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:42:16,592 - setup_method - ERROR - An error occurred during the login test: FrameworkXpertBotLoginPageClass.xpertbot_login() got an unexpected keyword argument 'Username'. Did you mean 'username'?
+2025-06-16 22:42:16,607 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:42:16,607 - setup_method - ERROR - An error occurred during the login test: FrameworkXpertBotLoginPageClass.xpertbot_login() got an unexpected keyword argument 'Username'. Did you mean 'username'?
+2025-06-16 22:59:16,363 - setup_method - INFO - Starting the login test for XpertBot Academy
+2025-06-16 22:59:16,368 - xpertbot_login_function - INFO - Locating email input field
+2025-06-16 22:59:16,368 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-16 22:59:16,368 - setup_method - ERROR - An error occurred during the login test: 'NoneType' object has no attribute 'find_element'

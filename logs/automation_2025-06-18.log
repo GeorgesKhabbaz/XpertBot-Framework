@@ -1,0 +1,1483 @@
+2025-06-18 12:05:55,167 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:05:55,177 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:05:55,179 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:05:55,453 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:05:55,615 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:05:58,022 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:06:00,023 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:06:00,025 - setup_method - INFO - Starting logout test.
+2025-06-18 12:06:00,035 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 12:06:00,252 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 12:06:00,253 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 12:06:10,721 - xpertbot_logout_function - ERROR - Logout failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 12:06:10,722 - setup_method - ERROR - An error occurred during the login test: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 12:09:55,959 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:09:56,006 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:09:56,006 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:09:56,292 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:09:56,450 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:09:58,780 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:10:00,781 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:10:00,782 - setup_method - INFO - Starting logout test.
+2025-06-18 12:10:00,789 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 12:10:00,973 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 12:10:00,974 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 12:10:02,427 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 12:10:04,429 - setup_method - INFO - Logout test executed successfully.
+2025-06-18 12:10:23,143 - setup_method - INFO - Starting login test for: user2
+2025-06-18 12:10:23,152 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:10:23,153 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:10:23,375 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:10:23,521 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:10:23,656 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:10:25,657 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:10:25,661 - setup_method - INFO - Starting logout test.
+2025-06-18 12:10:25,669 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 12:10:35,862 - xpertbot_logout_function - ERROR - Logout failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 12:10:35,865 - setup_method - ERROR - An error occurred during the login test: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 12:28:15,912 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:28:15,921 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:28:15,922 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:28:16,062 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:28:16,165 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:28:18,233 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:28:20,234 - setup_method - ERROR - An error occurred during the login test: WebDriver.find_element() takes from 1 to 3 positional arguments but 60 were given
+2025-06-18 12:32:28,786 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:32:28,798 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:32:28,800 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:32:28,930 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:32:29,016 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:32:31,100 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:32:33,128 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:32:33,130 - setup_method - ERROR - Login failed for user: Bobweb@test.com
+assert None
+2025-06-18 12:35:27,326 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:35:27,331 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:35:27,332 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:35:27,494 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:35:27,596 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:35:29,939 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:35:31,952 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:35:31,952 - setup_method - ERROR - Login failed for user: Bobweb@test.com
+assert None
+2025-06-18 12:38:33,427 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:38:33,433 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:38:33,434 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:38:33,747 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:38:33,849 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:38:36,120 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:38:38,161 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:38:38,162 - setup_method - ERROR - Login failed for user: Bobweb@test.com
+assert None
+2025-06-18 12:42:35,382 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:42:35,387 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:42:35,387 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:42:35,554 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:42:35,668 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:42:37,748 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:42:39,750 - setup_method - ERROR - An error occurred during the login test: WebDriver.find_element() takes from 1 to 3 positional arguments but 60 were given
+2025-06-18 12:44:50,873 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:44:50,886 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:44:50,886 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:44:51,035 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:44:51,133 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:44:53,258 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:44:55,260 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 12:44:55,280 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 12:44:55,281 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:44:55,282 - setup_method - ERROR - Login failed for user: Bobweb@test.com
+assert None
+2025-06-18 12:48:26,752 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 12:48:26,765 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:48:26,766 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:48:26,935 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:48:27,045 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:48:29,493 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:48:31,494 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 12:48:31,512 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 12:48:31,512 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:48:31,512 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:48:31,512 - setup_method - INFO - Starting logout test.
+2025-06-18 12:48:31,514 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 12:48:31,612 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 12:48:31,614 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 12:48:32,321 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 12:48:34,322 - setup_method - INFO - Logout test executed successfully.
+2025-06-18 12:48:42,817 - setup_method - INFO - Starting login test for: user2
+2025-06-18 12:48:42,825 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 12:48:42,826 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 12:48:42,917 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 12:48:42,985 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 12:48:43,069 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 12:48:45,070 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 12:48:55,587 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 12:48:55,588 - setup_method - INFO - Login test executed successfully
+2025-06-18 12:48:55,588 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 13:06:09,619 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 13:06:09,630 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:06:09,632 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:06:09,755 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:06:09,823 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:06:12,032 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:06:14,033 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:06:14,051 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 13:06:14,052 - setup_method - INFO - Login test executed successfully
+2025-06-18 13:06:14,052 - setup_method - INFO - Login test executed successfully
+2025-06-18 13:06:14,053 - setup_method - INFO - Starting logout test.
+2025-06-18 13:06:14,059 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 13:06:14,152 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 13:06:14,153 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 13:06:14,869 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 13:06:16,871 - setup_method - INFO - Logout test executed successfully.
+2025-06-18 13:06:27,170 - setup_method - INFO - Starting login test for: user2
+2025-06-18 13:06:27,177 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:06:27,179 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:06:27,288 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:06:27,354 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:06:27,436 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:06:29,437 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:06:39,892 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:06:39,894 - setup_method - INFO - Login test executed successfully
+2025-06-18 13:06:39,895 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 13:15:15,786 - setup_method - INFO - Starting login test for: user2
+2025-06-18 13:15:15,795 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:15:15,795 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:15:15,956 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:15:16,061 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:15:16,157 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:15:18,158 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:15:28,196 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:15:28,198 - setup_method - ERROR - Login failed for user: user2
+2025-06-18 13:15:28,199 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 13:21:29,136 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 13:21:29,146 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:21:29,147 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:21:29,303 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:21:29,387 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:21:31,716 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:21:33,717 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:21:33,744 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 13:21:33,814 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 13:21:33,896 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 13:21:33,897 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 13:21:34,817 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 13:21:47,325 - setup_method - INFO - Starting login test for: user2
+2025-06-18 13:21:47,331 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:21:47,332 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:21:47,478 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:21:47,546 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:21:47,634 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:21:49,635 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:22:00,146 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:22:54,363 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 13:22:54,370 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:22:54,373 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:22:54,504 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:22:54,594 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:23:06,766 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:23:08,767 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:23:08,788 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 13:23:08,810 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 13:23:08,946 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 13:23:08,947 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 13:23:12,582 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 13:23:14,616 - setup_method - INFO - Starting login test for: user2
+2025-06-18 13:23:14,627 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:23:14,628 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:23:14,758 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:23:14,846 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:23:14,913 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:23:16,914 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:23:27,003 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:23:27,042 - setup_method - INFO - Starting login test for: testing
+2025-06-18 13:23:27,054 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:23:27,055 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:23:27,303 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:23:27,422 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:23:27,499 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:23:29,500 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:23:39,922 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:23:39,954 - setup_method - INFO - Starting login test for: user4
+2025-06-18 13:23:39,960 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:23:39,961 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:23:40,079 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:23:40,223 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:23:40,317 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:23:42,318 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:23:52,704 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 13:23:52,731 - setup_method - INFO - Starting login test for: test@
+2025-06-18 13:23:52,742 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 13:23:52,743 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 13:23:52,895 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 13:23:52,985 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 13:23:53,043 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 13:23:55,044 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 13:24:05,455 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f3a0cda5+78885]
+	GetHandleVerifier [0x0x7ff6f3a0ce00+78976]
+	(No symbol) [0x0x7ff6f37c9bca]
+	(No symbol) [0x0x7ff6f3820766]
+	(No symbol) [0x0x7ff6f3820a1c]
+	(No symbol) [0x0x7ff6f3874467]
+	(No symbol) [0x0x7ff6f3848bcf]
+	(No symbol) [0x0x7ff6f387122f]
+	(No symbol) [0x0x7ff6f3848963]
+	(No symbol) [0x0x7ff6f38116b1]
+	(No symbol) [0x0x7ff6f3812443]
+	GetHandleVerifier [0x0x7ff6f3ce4eed+3061101]
+	GetHandleVerifier [0x0x7ff6f3cdf33d+3037629]
+	GetHandleVerifier [0x0x7ff6f3cfe592+3165202]
+	GetHandleVerifier [0x0x7ff6f3a2730e+186766]
+	GetHandleVerifier [0x0x7ff6f3a2eb3f+217535]
+	GetHandleVerifier [0x0x7ff6f3a159b4+114740]
+	GetHandleVerifier [0x0x7ff6f3a15b69+115177]
+	GetHandleVerifier [0x0x7ff6f39fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 14:46:22,697 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 14:46:22,710 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 14:46:22,710 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 14:46:22,998 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 14:46:23,133 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 14:46:23,247 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 14:46:25,247 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 14:46:26,413 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 14:46:26,429 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 14:46:26,527 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 14:46:26,528 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 14:46:27,306 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 14:46:29,342 - setup_method - INFO - Starting login test for: user2
+2025-06-18 14:46:29,349 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 14:46:29,351 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 14:46:29,511 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 14:46:29,618 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 14:46:29,696 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 14:46:31,697 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 14:46:41,779 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 14:46:41,813 - setup_method - INFO - Starting login test for: testing
+2025-06-18 14:46:41,827 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 14:46:41,828 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 14:46:42,116 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 14:46:42,317 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 14:46:42,400 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 14:46:44,401 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 14:46:54,517 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 14:46:54,563 - setup_method - INFO - Starting login test for: user4
+2025-06-18 14:46:54,577 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 14:46:54,578 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 14:46:54,806 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 14:46:54,979 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 14:46:55,046 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 14:46:57,046 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 14:47:07,472 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 14:47:07,493 - setup_method - INFO - Starting login test for: test@
+2025-06-18 14:47:07,499 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 14:47:07,500 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 14:47:07,738 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 14:47:07,877 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 14:47:07,951 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 14:47:09,952 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 14:47:19,953 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:00:34,658 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 15:00:34,671 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:00:34,671 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:00:34,847 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:00:34,955 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:00:37,438 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:00:39,439 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:00:39,465 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 15:00:39,485 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 15:00:39,569 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 15:00:39,569 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 15:00:40,226 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 15:00:42,253 - setup_method - INFO - Starting login test for: user2
+2025-06-18 15:00:42,261 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:00:42,261 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:00:42,399 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:00:42,478 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:00:42,538 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:00:44,540 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:00:54,632 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:00:54,675 - setup_method - INFO - Starting login test for: testing
+2025-06-18 15:00:54,690 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:00:54,690 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:00:54,922 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:00:55,075 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:00:55,136 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:00:57,137 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:01:07,157 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:01:07,194 - setup_method - INFO - Starting login test for: user4
+2025-06-18 15:01:07,200 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:01:07,201 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:01:07,378 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:01:07,492 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:01:07,557 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:01:09,558 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:01:19,966 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:01:19,997 - setup_method - INFO - Starting login test for: test@
+2025-06-18 15:01:20,001 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:01:20,002 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:01:20,184 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:01:20,310 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:01:20,383 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:01:22,384 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:01:32,869 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:03:04,768 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 15:03:04,773 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:03:04,773 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:03:04,929 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:03:05,021 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:03:07,351 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:03:09,352 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:03:09,381 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 15:03:09,401 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 15:03:09,523 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 15:03:09,525 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 15:03:10,265 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 15:03:12,295 - setup_method - INFO - Starting login test for: user2
+2025-06-18 15:03:12,305 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:03:12,305 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:03:12,420 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:03:12,502 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:03:12,562 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:03:14,562 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:03:19,887 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:03:19,945 - setup_method - INFO - Starting login test for: testing
+2025-06-18 15:03:19,963 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:03:19,964 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:03:20,313 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:03:20,596 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:03:20,680 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:03:22,682 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:03:27,933 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:03:27,969 - setup_method - INFO - Starting login test for: user4
+2025-06-18 15:03:27,974 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:03:27,977 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:03:28,381 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:03:28,685 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:03:28,782 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:03:30,783 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:03:36,030 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:03:36,064 - setup_method - INFO - Starting login test for: test@
+2025-06-18 15:03:36,074 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:03:36,074 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:03:36,307 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:03:36,452 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:03:36,507 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:03:38,508 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:03:43,824 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff784aecda5+78885]
+	GetHandleVerifier [0x0x7ff784aece00+78976]
+	(No symbol) [0x0x7ff7848a9bca]
+	(No symbol) [0x0x7ff784900766]
+	(No symbol) [0x0x7ff784900a1c]
+	(No symbol) [0x0x7ff784954467]
+	(No symbol) [0x0x7ff784928bcf]
+	(No symbol) [0x0x7ff78495122f]
+	(No symbol) [0x0x7ff784928963]
+	(No symbol) [0x0x7ff7848f16b1]
+	(No symbol) [0x0x7ff7848f2443]
+	GetHandleVerifier [0x0x7ff784dc4eed+3061101]
+	GetHandleVerifier [0x0x7ff784dbf33d+3037629]
+	GetHandleVerifier [0x0x7ff784dde592+3165202]
+	GetHandleVerifier [0x0x7ff784b0730e+186766]
+	GetHandleVerifier [0x0x7ff784b0eb3f+217535]
+	GetHandleVerifier [0x0x7ff784af59b4+114740]
+	GetHandleVerifier [0x0x7ff784af5b69+115177]
+	GetHandleVerifier [0x0x7ff784adc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 15:56:41,215 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 15:56:41,219 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:56:41,219 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:56:41,383 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:56:41,478 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:56:44,146 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:56:46,148 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:56:46,163 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 15:56:46,183 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 15:56:46,281 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 15:56:46,282 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 15:56:46,945 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 15:57:00,318 - setup_method - INFO - Starting login test for: user2
+2025-06-18 15:57:00,322 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 15:57:00,323 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 15:57:00,474 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 15:57:00,575 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 15:57:00,667 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 15:57:02,668 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 15:57:07,898 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6e4e1cda5+78885]
+	GetHandleVerifier [0x0x7ff6e4e1ce00+78976]
+	(No symbol) [0x0x7ff6e4bd9bca]
+	(No symbol) [0x0x7ff6e4c30766]
+	(No symbol) [0x0x7ff6e4c30a1c]
+	(No symbol) [0x0x7ff6e4c84467]
+	(No symbol) [0x0x7ff6e4c58bcf]
+	(No symbol) [0x0x7ff6e4c8122f]
+	(No symbol) [0x0x7ff6e4c58963]
+	(No symbol) [0x0x7ff6e4c216b1]
+	(No symbol) [0x0x7ff6e4c22443]
+	GetHandleVerifier [0x0x7ff6e50f4eed+3061101]
+	GetHandleVerifier [0x0x7ff6e50ef33d+3037629]
+	GetHandleVerifier [0x0x7ff6e510e592+3165202]
+	GetHandleVerifier [0x0x7ff6e4e3730e+186766]
+	GetHandleVerifier [0x0x7ff6e4e3eb3f+217535]
+	GetHandleVerifier [0x0x7ff6e4e259b4+114740]
+	GetHandleVerifier [0x0x7ff6e4e25b69+115177]
+	GetHandleVerifier [0x0x7ff6e4e0c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:26:24,865 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 20:26:24,884 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:26:24,884 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:26:25,110 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:26:25,212 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:26:36,518 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:26:38,519 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:26:38,541 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 20:26:38,554 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 20:26:38,686 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 20:26:38,687 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 20:26:58,931 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 20:27:00,961 - setup_method - INFO - Starting login test for: user2
+2025-06-18 20:27:00,965 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:27:00,965 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:27:01,102 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:27:01,182 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:27:01,248 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:27:03,248 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:27:08,543 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7aa64fe75+79173]
+	GetHandleVerifier [0x0x7ff7aa64fed0+79264]
+	(No symbol) [0x0x7ff7aa409e5a]
+	(No symbol) [0x0x7ff7aa460586]
+	(No symbol) [0x0x7ff7aa46083c]
+	(No symbol) [0x0x7ff7aa4b4247]
+	(No symbol) [0x0x7ff7aa4889af]
+	(No symbol) [0x0x7ff7aa4b100d]
+	(No symbol) [0x0x7ff7aa488743]
+	(No symbol) [0x0x7ff7aa4514c1]
+	(No symbol) [0x0x7ff7aa452253]
+	GetHandleVerifier [0x0x7ff7aa91a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7aa9146fd+2981325]
+	GetHandleVerifier [0x0x7ff7aa933350+3107360]
+	GetHandleVerifier [0x0x7ff7aa66a9fe+188622]
+	GetHandleVerifier [0x0x7ff7aa67228f+219487]
+	GetHandleVerifier [0x0x7ff7aa658dc4+115860]
+	GetHandleVerifier [0x0x7ff7aa658f79+116297]
+	GetHandleVerifier [0x0x7ff7aa63f528+11256]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:27:08,588 - setup_method - INFO - Starting login test for: testing
+2025-06-18 20:27:08,602 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:27:08,606 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:27:08,857 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:27:09,005 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:27:09,088 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:27:11,088 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:27:16,384 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7aa64fe75+79173]
+	GetHandleVerifier [0x0x7ff7aa64fed0+79264]
+	(No symbol) [0x0x7ff7aa409e5a]
+	(No symbol) [0x0x7ff7aa460586]
+	(No symbol) [0x0x7ff7aa46083c]
+	(No symbol) [0x0x7ff7aa4b4247]
+	(No symbol) [0x0x7ff7aa4889af]
+	(No symbol) [0x0x7ff7aa4b100d]
+	(No symbol) [0x0x7ff7aa488743]
+	(No symbol) [0x0x7ff7aa4514c1]
+	(No symbol) [0x0x7ff7aa452253]
+	GetHandleVerifier [0x0x7ff7aa91a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7aa9146fd+2981325]
+	GetHandleVerifier [0x0x7ff7aa933350+3107360]
+	GetHandleVerifier [0x0x7ff7aa66a9fe+188622]
+	GetHandleVerifier [0x0x7ff7aa67228f+219487]
+	GetHandleVerifier [0x0x7ff7aa658dc4+115860]
+	GetHandleVerifier [0x0x7ff7aa658f79+116297]
+	GetHandleVerifier [0x0x7ff7aa63f528+11256]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:27:16,419 - setup_method - INFO - Starting login test for: user4
+2025-06-18 20:27:16,427 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:27:16,430 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:27:16,648 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:27:16,818 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:27:16,883 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:27:18,884 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:27:24,166 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7aa64fe75+79173]
+	GetHandleVerifier [0x0x7ff7aa64fed0+79264]
+	(No symbol) [0x0x7ff7aa409e5a]
+	(No symbol) [0x0x7ff7aa460586]
+	(No symbol) [0x0x7ff7aa46083c]
+	(No symbol) [0x0x7ff7aa4b4247]
+	(No symbol) [0x0x7ff7aa4889af]
+	(No symbol) [0x0x7ff7aa4b100d]
+	(No symbol) [0x0x7ff7aa488743]
+	(No symbol) [0x0x7ff7aa4514c1]
+	(No symbol) [0x0x7ff7aa452253]
+	GetHandleVerifier [0x0x7ff7aa91a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7aa9146fd+2981325]
+	GetHandleVerifier [0x0x7ff7aa933350+3107360]
+	GetHandleVerifier [0x0x7ff7aa66a9fe+188622]
+	GetHandleVerifier [0x0x7ff7aa67228f+219487]
+	GetHandleVerifier [0x0x7ff7aa658dc4+115860]
+	GetHandleVerifier [0x0x7ff7aa658f79+116297]
+	GetHandleVerifier [0x0x7ff7aa63f528+11256]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:27:24,205 - setup_method - INFO - Starting login test for: test@
+2025-06-18 20:27:24,214 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:27:24,214 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:27:24,496 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:27:24,673 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:27:24,765 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:27:26,769 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:27:32,047 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7aa64fe75+79173]
+	GetHandleVerifier [0x0x7ff7aa64fed0+79264]
+	(No symbol) [0x0x7ff7aa409e5a]
+	(No symbol) [0x0x7ff7aa460586]
+	(No symbol) [0x0x7ff7aa46083c]
+	(No symbol) [0x0x7ff7aa4b4247]
+	(No symbol) [0x0x7ff7aa4889af]
+	(No symbol) [0x0x7ff7aa4b100d]
+	(No symbol) [0x0x7ff7aa488743]
+	(No symbol) [0x0x7ff7aa4514c1]
+	(No symbol) [0x0x7ff7aa452253]
+	GetHandleVerifier [0x0x7ff7aa91a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7aa9146fd+2981325]
+	GetHandleVerifier [0x0x7ff7aa933350+3107360]
+	GetHandleVerifier [0x0x7ff7aa66a9fe+188622]
+	GetHandleVerifier [0x0x7ff7aa67228f+219487]
+	GetHandleVerifier [0x0x7ff7aa658dc4+115860]
+	GetHandleVerifier [0x0x7ff7aa658f79+116297]
+	GetHandleVerifier [0x0x7ff7aa63f528+11256]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:29:06,800 - setup_method - INFO - Starting login test for: test@
+2025-06-18 20:29:06,804 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:29:06,805 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:29:06,967 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:29:07,075 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:29:07,157 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:29:09,158 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:29:14,502 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7aa64fe75+79173]
+	GetHandleVerifier [0x0x7ff7aa64fed0+79264]
+	(No symbol) [0x0x7ff7aa409e5a]
+	(No symbol) [0x0x7ff7aa460586]
+	(No symbol) [0x0x7ff7aa46083c]
+	(No symbol) [0x0x7ff7aa4b4247]
+	(No symbol) [0x0x7ff7aa4889af]
+	(No symbol) [0x0x7ff7aa4b100d]
+	(No symbol) [0x0x7ff7aa488743]
+	(No symbol) [0x0x7ff7aa4514c1]
+	(No symbol) [0x0x7ff7aa452253]
+	GetHandleVerifier [0x0x7ff7aa91a2ad+3004797]
+	GetHandleVerifier [0x0x7ff7aa9146fd+2981325]
+	GetHandleVerifier [0x0x7ff7aa933350+3107360]
+	GetHandleVerifier [0x0x7ff7aa66a9fe+188622]
+	GetHandleVerifier [0x0x7ff7aa67228f+219487]
+	GetHandleVerifier [0x0x7ff7aa658dc4+115860]
+	GetHandleVerifier [0x0x7ff7aa658f79+116297]
+	GetHandleVerifier [0x0x7ff7aa63f528+11256]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 20:59:12,916 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-18 20:59:12,927 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 20:59:12,929 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 20:59:13,176 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 20:59:13,292 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 20:59:19,453 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 20:59:21,455 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 20:59:21,471 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-18 20:59:21,489 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-18 20:59:21,589 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-18 20:59:21,590 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-18 20:59:22,247 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-18 21:03:50,342 - setup_method - INFO - Starting login test for: user2
+2025-06-18 21:03:50,357 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 21:03:50,357 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 21:03:50,605 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 21:03:50,707 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 21:03:50,785 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 21:03:52,785 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 21:03:58,080 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff785e1cda5+78885]
+	GetHandleVerifier [0x0x7ff785e1ce00+78976]
+	(No symbol) [0x0x7ff785bd9bca]
+	(No symbol) [0x0x7ff785c30766]
+	(No symbol) [0x0x7ff785c30a1c]
+	(No symbol) [0x0x7ff785c84467]
+	(No symbol) [0x0x7ff785c58bcf]
+	(No symbol) [0x0x7ff785c8122f]
+	(No symbol) [0x0x7ff785c58963]
+	(No symbol) [0x0x7ff785c216b1]
+	(No symbol) [0x0x7ff785c22443]
+	GetHandleVerifier [0x0x7ff7860f4eed+3061101]
+	GetHandleVerifier [0x0x7ff7860ef33d+3037629]
+	GetHandleVerifier [0x0x7ff78610e592+3165202]
+	GetHandleVerifier [0x0x7ff785e3730e+186766]
+	GetHandleVerifier [0x0x7ff785e3eb3f+217535]
+	GetHandleVerifier [0x0x7ff785e259b4+114740]
+	GetHandleVerifier [0x0x7ff785e25b69+115177]
+	GetHandleVerifier [0x0x7ff785e0c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 21:50:48,897 - setup_method - INFO - Starting login test for: user2
+2025-06-18 21:50:48,910 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 21:50:48,910 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 21:50:49,099 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 21:50:49,197 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 21:50:49,276 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 21:50:51,277 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 21:50:56,609 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7edadcda5+78885]
+	GetHandleVerifier [0x0x7ff7edadce00+78976]
+	(No symbol) [0x0x7ff7ed899bca]
+	(No symbol) [0x0x7ff7ed8f0766]
+	(No symbol) [0x0x7ff7ed8f0a1c]
+	(No symbol) [0x0x7ff7ed944467]
+	(No symbol) [0x0x7ff7ed918bcf]
+	(No symbol) [0x0x7ff7ed94122f]
+	(No symbol) [0x0x7ff7ed918963]
+	(No symbol) [0x0x7ff7ed8e16b1]
+	(No symbol) [0x0x7ff7ed8e2443]
+	GetHandleVerifier [0x0x7ff7eddb4eed+3061101]
+	GetHandleVerifier [0x0x7ff7eddaf33d+3037629]
+	GetHandleVerifier [0x0x7ff7eddce592+3165202]
+	GetHandleVerifier [0x0x7ff7edaf730e+186766]
+	GetHandleVerifier [0x0x7ff7edafeb3f+217535]
+	GetHandleVerifier [0x0x7ff7edae59b4+114740]
+	GetHandleVerifier [0x0x7ff7edae5b69+115177]
+	GetHandleVerifier [0x0x7ff7edacc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 21:54:10,565 - setup_method - INFO - Starting login test for: user2
+2025-06-18 21:54:10,593 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 21:54:10,594 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 21:54:10,876 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 21:54:11,001 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 21:54:11,119 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 21:54:13,120 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 21:54:18,353 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff789fdcda5+78885]
+	GetHandleVerifier [0x0x7ff789fdce00+78976]
+	(No symbol) [0x0x7ff789d99bca]
+	(No symbol) [0x0x7ff789df0766]
+	(No symbol) [0x0x7ff789df0a1c]
+	(No symbol) [0x0x7ff789e44467]
+	(No symbol) [0x0x7ff789e18bcf]
+	(No symbol) [0x0x7ff789e4122f]
+	(No symbol) [0x0x7ff789e18963]
+	(No symbol) [0x0x7ff789de16b1]
+	(No symbol) [0x0x7ff789de2443]
+	GetHandleVerifier [0x0x7ff78a2b4eed+3061101]
+	GetHandleVerifier [0x0x7ff78a2af33d+3037629]
+	GetHandleVerifier [0x0x7ff78a2ce592+3165202]
+	GetHandleVerifier [0x0x7ff789ff730e+186766]
+	GetHandleVerifier [0x0x7ff789ffeb3f+217535]
+	GetHandleVerifier [0x0x7ff789fe59b4+114740]
+	GetHandleVerifier [0x0x7ff789fe5b69+115177]
+	GetHandleVerifier [0x0x7ff789fcc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 21:54:18,354 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 22:06:42,504 - setup_method - INFO - Starting login test for: user2
+2025-06-18 22:06:42,516 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 22:06:42,517 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 22:06:42,732 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 22:06:42,821 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 22:06:42,896 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 22:06:44,897 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 22:06:50,210 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71372cda5+78885]
+	GetHandleVerifier [0x0x7ff71372ce00+78976]
+	(No symbol) [0x0x7ff7134e9bca]
+	(No symbol) [0x0x7ff713540766]
+	(No symbol) [0x0x7ff713540a1c]
+	(No symbol) [0x0x7ff713594467]
+	(No symbol) [0x0x7ff713568bcf]
+	(No symbol) [0x0x7ff71359122f]
+	(No symbol) [0x0x7ff713568963]
+	(No symbol) [0x0x7ff7135316b1]
+	(No symbol) [0x0x7ff713532443]
+	GetHandleVerifier [0x0x7ff713a04eed+3061101]
+	GetHandleVerifier [0x0x7ff7139ff33d+3037629]
+	GetHandleVerifier [0x0x7ff713a1e592+3165202]
+	GetHandleVerifier [0x0x7ff71374730e+186766]
+	GetHandleVerifier [0x0x7ff71374eb3f+217535]
+	GetHandleVerifier [0x0x7ff7137359b4+114740]
+	GetHandleVerifier [0x0x7ff713735b69+115177]
+	GetHandleVerifier [0x0x7ff71371c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 22:06:50,211 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 22:13:31,253 - setup_method - INFO - Starting login test for: user2
+2025-06-18 22:13:31,271 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 22:13:31,273 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 22:13:31,608 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 22:13:31,705 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 22:13:31,800 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 22:13:33,802 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 22:13:39,008 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71372cda5+78885]
+	GetHandleVerifier [0x0x7ff71372ce00+78976]
+	(No symbol) [0x0x7ff7134e9bca]
+	(No symbol) [0x0x7ff713540766]
+	(No symbol) [0x0x7ff713540a1c]
+	(No symbol) [0x0x7ff713594467]
+	(No symbol) [0x0x7ff713568bcf]
+	(No symbol) [0x0x7ff71359122f]
+	(No symbol) [0x0x7ff713568963]
+	(No symbol) [0x0x7ff7135316b1]
+	(No symbol) [0x0x7ff713532443]
+	GetHandleVerifier [0x0x7ff713a04eed+3061101]
+	GetHandleVerifier [0x0x7ff7139ff33d+3037629]
+	GetHandleVerifier [0x0x7ff713a1e592+3165202]
+	GetHandleVerifier [0x0x7ff71374730e+186766]
+	GetHandleVerifier [0x0x7ff71374eb3f+217535]
+	GetHandleVerifier [0x0x7ff7137359b4+114740]
+	GetHandleVerifier [0x0x7ff713735b69+115177]
+	GetHandleVerifier [0x0x7ff71371c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 22:13:39,010 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 22:16:27,240 - setup_method - INFO - Starting login test for: user2
+2025-06-18 22:16:27,256 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 22:16:27,257 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 22:16:27,622 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 22:16:27,786 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 22:16:27,970 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 22:16:29,971 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 22:16:35,320 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71372cda5+78885]
+	GetHandleVerifier [0x0x7ff71372ce00+78976]
+	(No symbol) [0x0x7ff7134e9bca]
+	(No symbol) [0x0x7ff713540766]
+	(No symbol) [0x0x7ff713540a1c]
+	(No symbol) [0x0x7ff713594467]
+	(No symbol) [0x0x7ff713568bcf]
+	(No symbol) [0x0x7ff71359122f]
+	(No symbol) [0x0x7ff713568963]
+	(No symbol) [0x0x7ff7135316b1]
+	(No symbol) [0x0x7ff713532443]
+	GetHandleVerifier [0x0x7ff713a04eed+3061101]
+	GetHandleVerifier [0x0x7ff7139ff33d+3037629]
+	GetHandleVerifier [0x0x7ff713a1e592+3165202]
+	GetHandleVerifier [0x0x7ff71374730e+186766]
+	GetHandleVerifier [0x0x7ff71374eb3f+217535]
+	GetHandleVerifier [0x0x7ff7137359b4+114740]
+	GetHandleVerifier [0x0x7ff713735b69+115177]
+	GetHandleVerifier [0x0x7ff71371c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 22:16:35,322 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 22:21:11,490 - setup_method - INFO - Starting login test for: testing
+2025-06-18 22:21:11,496 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 22:21:11,497 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 22:21:11,685 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 22:21:11,814 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 22:21:11,897 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 22:21:13,899 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 22:21:19,234 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71372cda5+78885]
+	GetHandleVerifier [0x0x7ff71372ce00+78976]
+	(No symbol) [0x0x7ff7134e9bca]
+	(No symbol) [0x0x7ff713540766]
+	(No symbol) [0x0x7ff713540a1c]
+	(No symbol) [0x0x7ff713594467]
+	(No symbol) [0x0x7ff713568bcf]
+	(No symbol) [0x0x7ff71359122f]
+	(No symbol) [0x0x7ff713568963]
+	(No symbol) [0x0x7ff7135316b1]
+	(No symbol) [0x0x7ff713532443]
+	GetHandleVerifier [0x0x7ff713a04eed+3061101]
+	GetHandleVerifier [0x0x7ff7139ff33d+3037629]
+	GetHandleVerifier [0x0x7ff713a1e592+3165202]
+	GetHandleVerifier [0x0x7ff71374730e+186766]
+	GetHandleVerifier [0x0x7ff71374eb3f+217535]
+	GetHandleVerifier [0x0x7ff7137359b4+114740]
+	GetHandleVerifier [0x0x7ff713735b69+115177]
+	GetHandleVerifier [0x0x7ff71371c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 22:21:19,236 - setup_method - ERROR - Login failed for user: testing
+assert False
+2025-06-18 22:22:21,132 - setup_method - INFO - Starting login test for: user2
+2025-06-18 22:22:21,147 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 22:22:21,150 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 22:22:21,313 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 22:22:21,405 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 22:22:21,496 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 22:22:23,497 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 22:22:28,763 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff71372cda5+78885]
+	GetHandleVerifier [0x0x7ff71372ce00+78976]
+	(No symbol) [0x0x7ff7134e9bca]
+	(No symbol) [0x0x7ff713540766]
+	(No symbol) [0x0x7ff713540a1c]
+	(No symbol) [0x0x7ff713594467]
+	(No symbol) [0x0x7ff713568bcf]
+	(No symbol) [0x0x7ff71359122f]
+	(No symbol) [0x0x7ff713568963]
+	(No symbol) [0x0x7ff7135316b1]
+	(No symbol) [0x0x7ff713532443]
+	GetHandleVerifier [0x0x7ff713a04eed+3061101]
+	GetHandleVerifier [0x0x7ff7139ff33d+3037629]
+	GetHandleVerifier [0x0x7ff713a1e592+3165202]
+	GetHandleVerifier [0x0x7ff71374730e+186766]
+	GetHandleVerifier [0x0x7ff71374eb3f+217535]
+	GetHandleVerifier [0x0x7ff7137359b4+114740]
+	GetHandleVerifier [0x0x7ff713735b69+115177]
+	GetHandleVerifier [0x0x7ff71371c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 22:22:28,764 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 23:14:33,337 - setup_method - INFO - Starting login test for: user2
+2025-06-18 23:14:33,351 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 23:14:33,351 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 23:14:33,501 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 23:14:33,600 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 23:14:33,680 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 23:14:35,681 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 23:14:41,017 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cea6cda5+78885]
+	GetHandleVerifier [0x0x7ff6cea6ce00+78976]
+	(No symbol) [0x0x7ff6ce829bca]
+	(No symbol) [0x0x7ff6ce880766]
+	(No symbol) [0x0x7ff6ce880a1c]
+	(No symbol) [0x0x7ff6ce8d4467]
+	(No symbol) [0x0x7ff6ce8a8bcf]
+	(No symbol) [0x0x7ff6ce8d122f]
+	(No symbol) [0x0x7ff6ce8a8963]
+	(No symbol) [0x0x7ff6ce8716b1]
+	(No symbol) [0x0x7ff6ce872443]
+	GetHandleVerifier [0x0x7ff6ced44eed+3061101]
+	GetHandleVerifier [0x0x7ff6ced3f33d+3037629]
+	GetHandleVerifier [0x0x7ff6ced5e592+3165202]
+	GetHandleVerifier [0x0x7ff6cea8730e+186766]
+	GetHandleVerifier [0x0x7ff6cea8eb3f+217535]
+	GetHandleVerifier [0x0x7ff6cea759b4+114740]
+	GetHandleVerifier [0x0x7ff6cea75b69+115177]
+	GetHandleVerifier [0x0x7ff6cea5c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 23:14:41,021 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 23:17:25,113 - setup_method - INFO - Starting login test for: user2
+2025-06-18 23:17:25,134 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 23:17:25,135 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 23:17:25,475 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 23:17:25,637 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 23:17:25,765 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 23:17:27,766 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 23:17:33,025 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cea6cda5+78885]
+	GetHandleVerifier [0x0x7ff6cea6ce00+78976]
+	(No symbol) [0x0x7ff6ce829bca]
+	(No symbol) [0x0x7ff6ce880766]
+	(No symbol) [0x0x7ff6ce880a1c]
+	(No symbol) [0x0x7ff6ce8d4467]
+	(No symbol) [0x0x7ff6ce8a8bcf]
+	(No symbol) [0x0x7ff6ce8d122f]
+	(No symbol) [0x0x7ff6ce8a8963]
+	(No symbol) [0x0x7ff6ce8716b1]
+	(No symbol) [0x0x7ff6ce872443]
+	GetHandleVerifier [0x0x7ff6ced44eed+3061101]
+	GetHandleVerifier [0x0x7ff6ced3f33d+3037629]
+	GetHandleVerifier [0x0x7ff6ced5e592+3165202]
+	GetHandleVerifier [0x0x7ff6cea8730e+186766]
+	GetHandleVerifier [0x0x7ff6cea8eb3f+217535]
+	GetHandleVerifier [0x0x7ff6cea759b4+114740]
+	GetHandleVerifier [0x0x7ff6cea75b69+115177]
+	GetHandleVerifier [0x0x7ff6cea5c368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 23:17:33,028 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-18 23:27:46,325 - setup_method - INFO - Starting login test for: user2
+2025-06-18 23:27:46,330 - xpertbot_login_function - INFO - Locating email input field
+2025-06-18 23:27:46,330 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-18 23:27:46,525 - xpertbot_login_function - INFO - Entered username.
+2025-06-18 23:27:46,627 - xpertbot_login_function - INFO - Entered password.
+2025-06-18 23:27:46,714 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-18 23:27:48,716 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-18 23:27:53,942 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7e230cda5+78885]
+	GetHandleVerifier [0x0x7ff7e230ce00+78976]
+	(No symbol) [0x0x7ff7e20c9bca]
+	(No symbol) [0x0x7ff7e2120766]
+	(No symbol) [0x0x7ff7e2120a1c]
+	(No symbol) [0x0x7ff7e2174467]
+	(No symbol) [0x0x7ff7e2148bcf]
+	(No symbol) [0x0x7ff7e217122f]
+	(No symbol) [0x0x7ff7e2148963]
+	(No symbol) [0x0x7ff7e21116b1]
+	(No symbol) [0x0x7ff7e2112443]
+	GetHandleVerifier [0x0x7ff7e25e4eed+3061101]
+	GetHandleVerifier [0x0x7ff7e25df33d+3037629]
+	GetHandleVerifier [0x0x7ff7e25fe592+3165202]
+	GetHandleVerifier [0x0x7ff7e232730e+186766]
+	GetHandleVerifier [0x0x7ff7e232eb3f+217535]
+	GetHandleVerifier [0x0x7ff7e23159b4+114740]
+	GetHandleVerifier [0x0x7ff7e2315b69+115177]
+	GetHandleVerifier [0x0x7ff7e22fc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-18 23:27:53,949 - setup_method - ERROR - Login failed for user: user2
+assert False
