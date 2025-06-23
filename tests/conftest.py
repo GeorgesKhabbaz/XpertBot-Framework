@@ -5,7 +5,6 @@ Currently includes a fixture to launch and quit the Chrome browser for UI testin
 """
 import os
 import re
-import tempfile
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -15,20 +14,16 @@ from selenium.common.exceptions import WebDriverException
 @pytest.fixture(scope="class")
 def launchbrowser(request):
     """
-    Fixture to launch Chrome browser with a unique user data dir in headless mode.
-    This avoids conflicts when running in parallel.
+    Fixture to launch Chrome browser in headless mode.
+    Optimized for CI (GitHub Actions) – avoids user-data-dir issues.
     """
 
     chrome_options = Options()
-    chrome_options.add_argument("--headless=new")  # Use new headless mode (from Chrome 109+)
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")  # optional but helpful
 
-    # Create a temporary unique user-data-dir to avoid parallel session conflict
-    temp_user_data_dir = tempfile.mkdtemp(prefix="chrome_user_data_")
-    chrome_options.add_argument(f"--user-data-dir={temp_user_data_dir}")
-
-    # Initialize the driver with options
     driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://xpertbotacademy.online/nova/login")
 

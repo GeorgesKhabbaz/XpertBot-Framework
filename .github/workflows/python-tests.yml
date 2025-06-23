@@ -36,6 +36,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # ✅ Install Google Chrome for Selenium
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
       # Step 5: Create reports directory
       - name: Create reports directory
         run: mkdir -p reports/assets
