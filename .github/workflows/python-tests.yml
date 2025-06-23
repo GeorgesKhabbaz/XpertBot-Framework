@@ -38,7 +38,7 @@ jobs:
 
       # Step 5: Create reports directory
       - name: Create reports directory
-        run: mkdir -p reports/assets
+        run: mkdir -p reports/assets/style.css
 
       # Step 6: Run Pytest with 5 parallel workers
       - name: Run Pytest
