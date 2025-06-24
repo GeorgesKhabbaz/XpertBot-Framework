@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1 id="title">report.html</h1>
-    <p>Report generated on 24-Jun-2025 at 13:32:23 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+    <p>Report generated on 24-Jun-2025 at 13:40:09 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
         v4.1.1</p>
     <div id="environment-header">
       <h2>Environment</h2>
@@ -61,7 +61,7 @@
         <h2>Summary</h2>
         <div class="additional-summary prefix">
         </div>
-        <p class="run-count">0 test took 0 ms.</p>
+        <p class="run-count">1 test took 00:00:13.</p>
         <p class="filter">(Un)check the boxes to filter the results.</p>
         <div class="summary__reload">
           <div class="summary__reload__button hidden" onclick="location.reload()">
@@ -71,8 +71,8 @@
         <div class="summary__spacer"></div>
         <div class="controls">
           <div class="filters">
-            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
-            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">1 Failed,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" disabled/>
             <span class="passed">0 Passed,</span>
             <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
@@ -108,7 +108,7 @@
     </table>
   </body>
   <footer>
-    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.2&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.26100-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.1&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;Faker&#34;: &#34;37.4.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;xdist&#34;: &#34;3.7.0&#34;}}, &#34;tests&#34;: {}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.2&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.26100-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.1&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;Faker&#34;: &#34;37.4.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;xdist&#34;: &#34;3.7.0&#34;}}, &#34;tests&#34;: {&#34;tests/test_frameworkxpertbotlogin.py::TestXpertBotLoginClass::test_login[testdata1]&#34;: [{&#34;extras&#34;: [{&#34;name&#34;: null, &#34;format_type&#34;: &#34;html&#34;, &#34;content&#34;: &#34;&lt;div&gt;&lt;img src=\&#34;tests_test_frameworkxpertbotlogin.py__TestXpertBotLoginClass__test_login_testdata1_.png\&#34; alt=\&#34;screenshot\&#34; style=\&#34;width:400px;height:200px;\&#34; onclick=\&#34;window.open(this.src)\&#34; align=\&#34;right\&#34;/&gt;&lt;/div&gt;&#34;, &#34;mime_type&#34;: null, &#34;extension&#34;: null}], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_frameworkxpertbotlogin.py::TestXpertBotLoginClass::test_login[testdata1]&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_frameworkxpertbotlogin.py::TestXpertBotLoginClass::test_login[testdata1]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;tests.test_frameworkxpertbotlogin.TestXpertBotLoginClass object at 0x000001A77F699590&amp;gt;\ntestdata = {&amp;#x27;password&amp;#x27;: &amp;#x27;test2&amp;#x27;, &amp;#x27;username&amp;#x27;: &amp;#x27;user2&amp;#x27;}\n\n    @pytest.mark.parametrize(&amp;quot;testdata&amp;quot;, test_data_var)\n    def test_login(self, testdata):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test login functionality followed by logout for XpertBot Academy.\n        &amp;quot;&amp;quot;&amp;quot;\n        try:\n            # Maximize the browser window\n            self.driver.maximize_window()  # pylint: disable=no-member\n    \n            self.log.info(&amp;quot;Starting login test for: %s&amp;quot;, testdata[&amp;quot;username&amp;quot;])\n    \n            login_page = FrameworkXpertBotLoginPageClass(self.driver)  # pylint: disable=no-member\n    \n            # Perform login using the provided test data\n            login_success = login_page.xpertbot_login(**testdata)\n    \n&amp;gt;           assert login_success, f&amp;quot;Login failed for user: {testdata[&amp;#x27;username&amp;#x27;]}&amp;quot;\nE           AssertionError: Login failed for user: user2\nE           assert False\n\ntests\\test_frameworkxpertbotlogin.py:42: AssertionError\n\n------------------------------ Captured log call -------------------------------\nINFO     setup_method:test_frameworkxpertbotlogin.py:35 Starting login test for: user2\nINFO     xpertbot_login_function:functions.py:30 Locating email input field\nINFO     xpertbot_login_function:functions.py:32 Waiting for email input field to be visible...\nINFO     xpertbot_login_function:functions.py:38 Entered username.\nINFO     xpertbot_login_function:functions.py:43 Entered password.\nINFO     xpertbot_login_function:functions.py:47 Clicked login button.\nINFO     xpertbot_login_function:functions.py:53 Waiting for image logo to confirm login...\nERROR    xpertbot_login_function:functions.py:62 Error during login sequence: Message: \nStacktrace:\n\tGetHandleVerifier [0x0x7ff713c2cda5+78885]\n\tGetHandleVerifier [0x0x7ff713c2ce00+78976]\n\t(No symbol) [0x0x7ff7139e9bca]\n\t(No symbol) [0x0x7ff713a40766]\n\t(No symbol) [0x0x7ff713a40a1c]\n\t(No symbol) [0x0x7ff713a94467]\n\t(No symbol) [0x0x7ff713a68bcf]\n\t(No symbol) [0x0x7ff713a9122f]\n\t(No symbol) [0x0x7ff713a68963]\n\t(No symbol) [0x0x7ff713a316b1]\n\t(No symbol) [0x0x7ff713a32443]\n\tGetHandleVerifier [0x0x7ff713f04eed+3061101]\n\tGetHandleVerifier [0x0x7ff713eff33d+3037629]\n\tGetHandleVerifier [0x0x7ff713f1e592+3165202]\n\tGetHandleVerifier [0x0x7ff713c4730e+186766]\n\tGetHandleVerifier [0x0x7ff713c4eb3f+217535]\n\tGetHandleVerifier [0x0x7ff713c359b4+114740]\n\tGetHandleVerifier [0x0x7ff713c35b69+115177]\n\tGetHandleVerifier [0x0x7ff713c1c368+10728]\n\tBaseThreadInitThunk [0x0x7ffad527e8d7+23]\n\tRtlUserThreadStart [0x0x7ffad611c34c+44]\n\nERROR    setup_method:test_frameworkxpertbotlogin.py:49 Login failed for user: user2\nassert False\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
     <script>
       (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
