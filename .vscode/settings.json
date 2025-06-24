@@ -3,8 +3,7 @@
     "tests",
     "--css=reports/assets/style.css",
     "--html=reports/report.html",
-    "-n 5",
-
+    
   ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true

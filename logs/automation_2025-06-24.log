@@ -160,3 +160,115 @@ Stacktrace:
 
 2025-06-24 12:14:35,233 - setup_method - ERROR - Login failed for user: test@
 assert False
+2025-06-24 12:19:39,402 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-24 12:19:39,425 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:19:39,425 - xpertbot_login_function - INFO - Locating email input field
+d to be visible...
+2025-06-24 12:19:39,426 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:19:39,715 - setup_method - INFO - Starting login test for: test@
+2025-06-24 12:19:39,739 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:19:39,740 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:19:40,155 - setup_method - INFO - Starting login test for: user2
+2025-06-24 12:19:40,174 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:19:40,174 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:19:40,693 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:19:40,720 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:19:40,973 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:19:40,976 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:19:40,977 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:19:41,012 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:19:41,257 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:19:41,273 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:19:41,303 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:19:41,508 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:19:41,631 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:19:43,262 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:19:43,515 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:19:43,633 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:19:44,647 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:19:46,648 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:19:46,679 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-24 12:19:46,680 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-24 12:19:46,682 - setup_method - INFO - Starting logout test.
+2025-06-24 12:19:46,696 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-24 12:19:47,113 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-24 12:19:47,115 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-24 12:19:48,418 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ac8bcda5+78885]
+	GetHandleVerifier [0x0x7ff7ac8bce00+78976]
+	(No symbol) [0x0x7ff7ac679bca]
+	(No symbol) [0x0x7ff7ac6d0766]
+	(No symbol) [0x0x7ff7ac6d0a1c]
+	(No symbol) [0x0x7ff7ac724467]
+	(No symbol) [0x0x7ff7ac6f8bcf]
+	(No symbol) [0x0x7ff7ac72122f]
+	(No symbol) [0x0x7ff7ac6f8963]
+	(No symbol) [0x0x7ff7ac6c16b1]
+	(No symbol) [0x0x7ff7ac6c2443]
+	GetHandleVerifier [0x0x7ff7acb94eed+3061101]
+	GetHandleVerifier [0x0x7ff7acb8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7acbae592+3165202]
+	GetHandleVerifier [0x0x7ff7ac8d730e+186766]
+	GetHandleVerifier [0x0x7ff7ac8deb3f+217535]
+	GetHandleVerifier [0x0x7ff7ac8c59b4+114740]
+	GetHandleVerifier [0x0x7ff7ac8c5b69+115177]
+	GetHandleVerifier [0x0x7ff7ac8ac368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:19:48,426 - setup_method - ERROR - Login failed for user: testing
+assert False
+2025-06-24 12:19:48,667 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ac8bcda5+78885]
+	GetHandleVerifier [0x0x7ff7ac8bce00+78976]
+	(No symbol) [0x0x7ff7ac679bca]
+	(No symbol) [0x0x7ff7ac6d0766]
+	(No symbol) [0x0x7ff7ac6d0a1c]
+	(No symbol) [0x0x7ff7ac724467]
+	(No symbol) [0x0x7ff7ac6f8bcf]
+	(No symbol) [0x0x7ff7ac72122f]
+	(No symbol) [0x0x7ff7ac6f8963]
+	(No symbol) [0x0x7ff7ac6c16b1]
+	(No symbol) [0x0x7ff7ac6c2443]
+	GetHandleVerifier [0x0x7ff7acb94eed+3061101]
+	GetHandleVerifier [0x0x7ff7acb8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7acbae592+3165202]
+	GetHandleVerifier [0x0x7ff7ac8d730e+186766]
+	GetHandleVerifier [0x0x7ff7ac8deb3f+217535]
+	GetHandleVerifier [0x0x7ff7ac8c59b4+114740]
+	GetHandleVerifier [0x0x7ff7ac8c5b69+115177]
+	GetHandleVerifier [0x0x7ff7ac8ac368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:19:48,669 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-24 12:19:48,796 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7ac8bcda5+78885]
+	GetHandleVerifier [0x0x7ff7ac8bce00+78976]
+	(No symbol) [0x0x7ff7ac679bca]
+	(No symbol) [0x0x7ff7ac6d0766]
+	(No symbol) [0x0x7ff7ac6d0a1c]
+	(No symbol) [0x0x7ff7ac724467]
+	(No symbol) [0x0x7ff7ac6f8bcf]
+	(No symbol) [0x0x7ff7ac72122f]
+	(No symbol) [0x0x7ff7ac6f8963]
+	(No symbol) [0x0x7ff7ac6c16b1]
+	(No symbol) [0x0x7ff7ac6c2443]
+	GetHandleVerifier [0x0x7ff7acb94eed+3061101]
+	GetHandleVerifier [0x0x7ff7acb8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7acbae592+3165202]
+	GetHandleVerifier [0x0x7ff7ac8d730e+186766]
+	GetHandleVerifier [0x0x7ff7ac8deb3f+217535]
+	GetHandleVerifier [0x0x7ff7ac8c59b4+114740]
+	GetHandleVerifier [0x0x7ff7ac8c5b69+115177]
+	GetHandleVerifier [0x0x7ff7ac8ac368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:19:48,799 - setup_method - ERROR - Login failed for user: test@
+assert False
+2025-06-24 12:19:50,422 - setup_method - INFO - Logout test executed successfully.
