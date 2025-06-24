@@ -1,0 +1,162 @@
+2025-06-24 12:13:12,776 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-24 12:13:12,782 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:13:12,782 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:13:13,004 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:13:13,116 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:13:13,216 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:13:15,217 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:13:15,267 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-24 12:13:15,268 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-24 12:13:15,269 - setup_method - INFO - Starting logout test.
+2025-06-24 12:13:15,283 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-24 12:13:15,396 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-24 12:13:15,396 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-24 12:13:16,165 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-24 12:13:18,166 - setup_method - INFO - Logout test executed successfully.
+2025-06-24 12:14:00,740 - setup_method - INFO - Starting login test for: user2
+2025-06-24 12:14:00,747 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:14:00,748 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:14:00,889 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:14:00,999 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:14:01,105 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:14:03,106 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:14:08,276 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63e6ccda5+78885]
+	GetHandleVerifier [0x0x7ff63e6cce00+78976]
+	(No symbol) [0x0x7ff63e489bca]
+	(No symbol) [0x0x7ff63e4e0766]
+	(No symbol) [0x0x7ff63e4e0a1c]
+	(No symbol) [0x0x7ff63e534467]
+	(No symbol) [0x0x7ff63e508bcf]
+	(No symbol) [0x0x7ff63e53122f]
+	(No symbol) [0x0x7ff63e508963]
+	(No symbol) [0x0x7ff63e4d16b1]
+	(No symbol) [0x0x7ff63e4d2443]
+	GetHandleVerifier [0x0x7ff63e9a4eed+3061101]
+	GetHandleVerifier [0x0x7ff63e99f33d+3037629]
+	GetHandleVerifier [0x0x7ff63e9be592+3165202]
+	GetHandleVerifier [0x0x7ff63e6e730e+186766]
+	GetHandleVerifier [0x0x7ff63e6eeb3f+217535]
+	GetHandleVerifier [0x0x7ff63e6d59b4+114740]
+	GetHandleVerifier [0x0x7ff63e6d5b69+115177]
+	GetHandleVerifier [0x0x7ff63e6bc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:14:08,277 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-24 12:14:25,634 - setup_method - INFO - Starting login test for: user2
+2025-06-24 12:14:25,647 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-24 12:14:25,653 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:14:25,654 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:14:25,655 - setup_method - INFO - Starting login test for: testing
+2025-06-24 12:14:25,665 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:14:25,666 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:14:25,677 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:14:25,677 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:14:26,095 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:14:26,113 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:14:26,166 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:14:26,347 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:14:26,364 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:14:26,400 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:14:26,600 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:14:26,603 - setup_method - INFO - Starting login test for: test@
+2025-06-24 12:14:26,628 - xpertbot_login_function - INFO - Locating email input field
+2025-06-24 12:14:26,629 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-24 12:14:26,710 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:14:27,315 - xpertbot_login_function - INFO - Entered username.
+2025-06-24 12:14:27,752 - xpertbot_login_function - INFO - Entered password.
+2025-06-24 12:14:28,168 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:14:28,611 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:14:28,712 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:14:29,463 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-24 12:14:30,169 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:14:31,464 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-24 12:14:31,510 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-24 12:14:31,510 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-24 12:14:31,510 - setup_method - INFO - Starting logout test.
+2025-06-24 12:14:31,536 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-24 12:14:31,809 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-24 12:14:31,809 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-24 12:14:32,957 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-24 12:14:33,842 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63e6ccda5+78885]
+	GetHandleVerifier [0x0x7ff63e6cce00+78976]
+	(No symbol) [0x0x7ff63e489bca]
+	(No symbol) [0x0x7ff63e4e0766]
+	(No symbol) [0x0x7ff63e4e0a1c]
+	(No symbol) [0x0x7ff63e534467]
+	(No symbol) [0x0x7ff63e508bcf]
+	(No symbol) [0x0x7ff63e53122f]
+	(No symbol) [0x0x7ff63e508963]
+	(No symbol) [0x0x7ff63e4d16b1]
+	(No symbol) [0x0x7ff63e4d2443]
+	GetHandleVerifier [0x0x7ff63e9a4eed+3061101]
+	GetHandleVerifier [0x0x7ff63e99f33d+3037629]
+	GetHandleVerifier [0x0x7ff63e9be592+3165202]
+	GetHandleVerifier [0x0x7ff63e6e730e+186766]
+	GetHandleVerifier [0x0x7ff63e6eeb3f+217535]
+	GetHandleVerifier [0x0x7ff63e6d59b4+114740]
+	GetHandleVerifier [0x0x7ff63e6d5b69+115177]
+	GetHandleVerifier [0x0x7ff63e6bc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:14:33,843 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-24 12:14:33,846 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63e6ccda5+78885]
+	GetHandleVerifier [0x0x7ff63e6cce00+78976]
+	(No symbol) [0x0x7ff63e489bca]
+	(No symbol) [0x0x7ff63e4e0766]
+	(No symbol) [0x0x7ff63e4e0a1c]
+	(No symbol) [0x0x7ff63e534467]
+	(No symbol) [0x0x7ff63e508bcf]
+	(No symbol) [0x0x7ff63e53122f]
+	(No symbol) [0x0x7ff63e508963]
+	(No symbol) [0x0x7ff63e4d16b1]
+	(No symbol) [0x0x7ff63e4d2443]
+	GetHandleVerifier [0x0x7ff63e9a4eed+3061101]
+	GetHandleVerifier [0x0x7ff63e99f33d+3037629]
+	GetHandleVerifier [0x0x7ff63e9be592+3165202]
+	GetHandleVerifier [0x0x7ff63e6e730e+186766]
+	GetHandleVerifier [0x0x7ff63e6eeb3f+217535]
+	GetHandleVerifier [0x0x7ff63e6d59b4+114740]
+	GetHandleVerifier [0x0x7ff63e6d5b69+115177]
+	GetHandleVerifier [0x0x7ff63e6bc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:14:33,847 - setup_method - ERROR - Login failed for user: testing
+assert False
+2025-06-24 12:14:34,958 - setup_method - INFO - Logout test executed successfully.
+2025-06-24 12:14:35,232 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63e6ccda5+78885]
+	GetHandleVerifier [0x0x7ff63e6cce00+78976]
+	(No symbol) [0x0x7ff63e489bca]
+	(No symbol) [0x0x7ff63e4e0766]
+	(No symbol) [0x0x7ff63e4e0a1c]
+	(No symbol) [0x0x7ff63e534467]
+	(No symbol) [0x0x7ff63e508bcf]
+	(No symbol) [0x0x7ff63e53122f]
+	(No symbol) [0x0x7ff63e508963]
+	(No symbol) [0x0x7ff63e4d16b1]
+	(No symbol) [0x0x7ff63e4d2443]
+	GetHandleVerifier [0x0x7ff63e9a4eed+3061101]
+	GetHandleVerifier [0x0x7ff63e99f33d+3037629]
+	GetHandleVerifier [0x0x7ff63e9be592+3165202]
+	GetHandleVerifier [0x0x7ff63e6e730e+186766]
+	GetHandleVerifier [0x0x7ff63e6eeb3f+217535]
+	GetHandleVerifier [0x0x7ff63e6d59b4+114740]
+	GetHandleVerifier [0x0x7ff63e6d5b69+115177]
+	GetHandleVerifier [0x0x7ff63e6bc368+10728]
+	BaseThreadInitThunk [0x0x7ffad527e8d7+23]
+	RtlUserThreadStart [0x0x7ffad611c34c+44]
+
+2025-06-24 12:14:35,233 - setup_method - ERROR - Login failed for user: test@
+assert False
