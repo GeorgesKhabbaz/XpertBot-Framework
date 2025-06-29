@@ -1,0 +1,15 @@
+2025-06-29 19:11:02,165 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-29 19:11:02,168 - xpertbot_login_function - INFO - Locating email input field
+2025-06-29 19:11:02,168 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-29 19:11:02,291 - xpertbot_login_function - INFO - Entered username.
+2025-06-29 19:11:02,356 - xpertbot_login_function - INFO - Entered password.
+2025-06-29 19:11:06,909 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-29 19:11:08,910 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-29 19:11:08,941 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-29 19:11:08,941 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-29 19:11:08,941 - setup_method - INFO - Starting logout test.
+2025-06-29 19:11:08,945 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-29 19:11:09,082 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-29 19:11:09,082 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-29 19:11:10,314 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-29 19:11:12,314 - setup_method - INFO - Logout test executed successfully.
