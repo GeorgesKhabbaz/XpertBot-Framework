@@ -13,3 +13,51 @@
 2025-06-29 19:11:09,082 - xpertbot_logout_function - INFO - Waiting for logout link...
 2025-06-29 19:11:10,314 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
 2025-06-29 19:11:12,314 - setup_method - INFO - Logout test executed successfully.
+2025-06-29 19:14:44,776 - setup_method - INFO - Starting login test for: user2
+2025-06-29 19:14:44,779 - xpertbot_login_function - INFO - Locating email input field
+2025-06-29 19:14:44,779 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-29 19:14:44,874 - xpertbot_login_function - INFO - Entered username.
+2025-06-29 19:14:44,938 - xpertbot_login_function - INFO - Entered password.
+2025-06-29 19:14:45,006 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-29 19:14:47,006 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-29 19:14:52,242 - xpertbot_login_function - ERROR - Error during login sequence: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bf366f65+76917]
+	GetHandleVerifier [0x0x7ff7bf366fc0+77008]
+	(No symbol) [0x0x7ff7bf119dea]
+	(No symbol) [0x0x7ff7bf170256]
+	(No symbol) [0x0x7ff7bf17050c]
+	(No symbol) [0x0x7ff7bf1c3887]
+	(No symbol) [0x0x7ff7bf1984af]
+	(No symbol) [0x0x7ff7bf1c065c]
+	(No symbol) [0x0x7ff7bf198243]
+	(No symbol) [0x0x7ff7bf161431]
+	(No symbol) [0x0x7ff7bf1621c3]
+	GetHandleVerifier [0x0x7ff7bf63d29d+3051437]
+	GetHandleVerifier [0x0x7ff7bf6378f3+3028483]
+	GetHandleVerifier [0x0x7ff7bf65588d+3151261]
+	GetHandleVerifier [0x0x7ff7bf38182e+185662]
+	GetHandleVerifier [0x0x7ff7bf3896ef+218111]
+	GetHandleVerifier [0x0x7ff7bf36fae4+112628]
+	GetHandleVerifier [0x0x7ff7bf36fc99+113065]
+	GetHandleVerifier [0x0x7ff7bf356c68+10616]
+	BaseThreadInitThunk [0x0x7ffd648de8d7+23]
+	RtlUserThreadStart [0x0x7ffd659fc34c+44]
+
+2025-06-29 19:14:52,242 - setup_method - ERROR - Login failed for user: user2
+assert False
+2025-06-29 19:15:23,957 - setup_method - INFO - Starting login test for: Bobweb@test.com
+2025-06-29 19:15:23,960 - xpertbot_login_function - INFO - Locating email input field
+2025-06-29 19:15:23,960 - xpertbot_login_function - INFO - Waiting for email input field to be visible...
+2025-06-29 19:15:24,075 - xpertbot_login_function - INFO - Entered username.
+2025-06-29 19:15:24,158 - xpertbot_login_function - INFO - Entered password.
+2025-06-29 19:15:24,220 - xpertbot_login_function - INFO - Clicked login button.
+2025-06-29 19:15:26,221 - xpertbot_login_function - INFO - Waiting for image logo to confirm login...
+2025-06-29 19:15:28,852 - xpertbot_login_function - INFO - Profile image found. Login was successful.
+2025-06-29 19:15:28,852 - setup_method - INFO - Login successful for user: Bobweb@test.com
+2025-06-29 19:15:28,852 - setup_method - INFO - Starting logout test.
+2025-06-29 19:15:28,854 - xpertbot_logout_function - INFO - Attempting to locate profile dropdown button...
+2025-06-29 19:15:28,979 - xpertbot_logout_function - INFO - Clicked on profile dropdown.
+2025-06-29 19:15:28,979 - xpertbot_logout_function - INFO - Waiting for logout link...
+2025-06-29 19:15:29,811 - xpertbot_logout_function - INFO - Clicked logout link. User should be logged out.
+2025-06-29 19:15:31,812 - setup_method - INFO - Logout test executed successfully.
